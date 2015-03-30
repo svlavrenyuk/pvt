@@ -2,8 +2,11 @@
 Tool intended to update plugin version in dependent applications.
 
 pvt.sh - main script. No flags / special keys. It is interactive.
+
 pvt_config.sh - configuration. Probably you will need to change file paths.
+
 pvt_auto_test.sh - not actually a real tests. Some stuff is printed. If you know what should be printed and if there are no obvious errors - tests are passed.
+
 pvt_test_with_mocked_git.sh - for manual testing. Function "git" is declared, which mocks all calls to git. Looks like currently it doesn't work correctly (because git diff-files and diff-index are not mocked properly).
 
 Push functionality is not tested yet. 
