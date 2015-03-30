@@ -24,4 +24,5 @@ TODO
 - improve / test case when updating existing branch and it need to be pulled and merged or rebased (maybe skip such app?). or if branch already exists but there is no corresponding remote branch.
 - create push failover (e.g. due to network problem)
 - add ability to modify affected applications during execution (e.g. for some app plugin is already updated)
+- what if I want to update several plugins and push all that changes in one commit/branch? this feature is not implemented. is it required?
 - for sure there are uncovered git cases, find and cover them
