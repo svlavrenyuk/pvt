@@ -26,3 +26,6 @@ TODO
 - add ability to modify affected applications during execution (e.g. for some app plugin is already updated)
 - what if I want to update several plugins and push all that changes in one commit/branch? this feature is not implemented. is it required?
 - for sure there are uncovered git cases, find and cover them
+
+TEMP TODO (trying to keep master branch history clean)
+- find out how "if git some_command" works. git exit code is treated as boolean expression?
